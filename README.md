@@ -1,2 +1,3 @@
 javascriptgames
 ===============
+Simple javascript games.
