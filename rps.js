@@ -2,6 +2,7 @@
 // (C)opyright Heark gaming co. 2014
 //  Very elementary.
 // Thanks for playing!
+var rps this;
 var choice = prompt("Rock, Paper, or Scissors?")
 var items = ["Rock","Paper","Scissors"]
 var compchoice = items[Math.floor(Math.random()*items.length)];
@@ -12,6 +13,7 @@ if (choice == "Rock", "rock"){
       console.log("You chose rock and the computer chose paper You Lose!")
         else if (compchoice == "Scissors")
       console.log("You chose Rock and the computer chose Scissors, You Win!")
+    
 }
 if (choice == "Paper", "paper"){
     if (compchoice == "Rock")
